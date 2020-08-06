@@ -1,0 +1,13 @@
+.totop{
+    position: absolute;
+    right: 50px;
+}
+.totop ul li{
+    list-style: none;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.totop ul li:hover{
+    color: #1890ff;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>caseapp/luntan</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="68" height="68"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-527.000000, -651.000000)">
+            <g id="caseapp/luntan" transform="translate(527.000000, 651.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="矩形" fill-opacity="0.01" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="编组-2" mask="url(#mask-2)">
+                    <g transform="translate(0.000000, 13.000000)">
+                        <path d="M30.918217,6.90543281 C44.019592,3.21657074 62.3883504,4.63536385 66.0859837,13.3511914 C69.727267,21.9769156 58.5028837,34.7312604 38.5026587,40.2248811 C18.505117,45.7655707 4.27674202,41.9825707 0.624725351,33.3555018 C-1.87748298,27.4234673 3.43685868,18.9981225 11.215842,15.5836052 C4.85902535,18.8972604 0.479825351,27.2849501 6.58306702,32.3616742 C12.644717,37.4773983 26.2398254,37.5688466 41.2047754,33.0219845 C56.1335004,28.4226742 64.6061254,20.273019 63.4710754,13.2086397 C62.188442,5.24860523 44.2597504,3.96698454 30.918217,6.90543281" id="Fill-1" fill="#E50113" fill-rule="evenodd"></path>
+                        <text id="论坛" fill="none" font-family="PangMenZhengDao" font-size="28" font-weight="normal" letter-spacing="1">
+                            <tspan x="6" y="24" fill="#231916">论坛</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

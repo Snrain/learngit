@@ -1,0 +1,10 @@
+.footer{
+  text-align: center;
+  clear: both;
+  border-top: 1px solid #d2d2d2;
+  padding: 10px;
+  display: block;
+}
+.footer:after{
+  clear: both;
+}

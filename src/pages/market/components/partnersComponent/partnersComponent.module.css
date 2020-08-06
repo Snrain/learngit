@@ -1,0 +1,50 @@
+.partnersTitle{
+    text-align: center;
+}
+.partnersTitle h1 {
+    font-family: PingFangSC-Medium;
+    font-size: 44px;
+    color: #1D1D1F;
+    letter-spacing: 2.2px;
+    text-align: center;
+    padding-top: 30px;
+}
+.partnersBox{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    float: left;
+    margin: 20px 20px;
+    
+}
+.partnersContent{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    transition: all 0.3s;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    padding: 15px;
+}
+.partnersBox:hover .partnersContent{
+    
+    top: 0;
+}
+.partnersImg{
+    height: 100%;
+    width: 100%;
+}
+.allBoxSty{
+    width: 72%;
+    margin: 20px auto;
+}
+.pSty{
+    
+    margin:0;
+    height:100%;
+}

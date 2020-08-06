@@ -1,0 +1,102 @@
+.popular{
+    width: 100%;
+    height: auto;
+}
+.popularTitle h1{
+    font-family: PingFangSC-Medium;
+    font-size: 44px;
+    color: #1D1D1F;
+    letter-spacing: 2.2px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 12px;
+}
+.popularTitle p{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #1D1D1F;
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.popularBody span{
+    text-align: center;
+}
+.appContent{
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+.appContent a{
+    display: flex;
+    flex-direction: column;
+    
+}
+.appContent.isHover{
+    
+    transform: scale(1.2);
+    
+}
+
+.appContent.isHover::after{
+    content: "";
+    width: 70%;
+    
+    height: 2px;
+    background-color: darkorange;
+    margin: 20px auto 0 auto;
+}
+.appBox{
+    padding-bottom: 20px;
+    border-bottom: 1px solid darkgrey;
+    
+}
+.appInfoBox{
+    width: 100%;
+    background: url('~@/assets/marketImg/appinfobg.png');
+    
+}
+.appInfoBox.isSelect{
+    transition: 0.6s ease-in-out;
+    transform: scale(0.9);
+}
+
+.appInfoBox p{
+    margin: 0;
+    padding: 0;
+    word-wrap:break-word;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #1d1d1f;
+    letter-spacing: .8px;
+    text-align: center;
+}
+
+.mobileBorder{
+    height: 510px;
+    width: 285px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 78px 22px 13px 30px;
+    background: url('~@/assets/marketImg/mobile.png') no-repeat;
+    background-color: #fff;
+    background-size: 100%;
+}
+.padBorder{
+    height: 494px;
+    width: 772px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 42px 39px 24px 43px;
+    background: url('~@/assets/marketImg/pad.png') no-repeat;
+    background-size: 100%;
+    background-color: #fff;
+}
+.appInfoBox img{
+    height: 100%;
+    width: 100%;
+}
+.contentBox{
+  height: 165px;
+}

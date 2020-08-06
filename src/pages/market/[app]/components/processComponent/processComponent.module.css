@@ -1,0 +1,85 @@
+.processBox{
+    position: relative;
+    width: 100%;
+    height: 686px;
+    background-color: #F8F9FB;
+    background-image: url('~@/assets/appImg/BG@2x.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 50px;
+}
+
+.processBox h1 {
+    font-family: PingFangSC-Medium;
+    font-size: 44px;
+    color: #1D1D1F;
+    letter-spacing: 2.2px;
+    text-align: center;
+    height: 62px;
+    margin-bottom: 11px;
+}
+.processBox>p{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #1D1D1F;
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin-bottom: 37px;
+}
+.processBox ul{
+    padding-top: 50px;
+}
+.processBox ul li{
+    list-style: none;
+    width: 600px;
+    cursor: pointer;
+    
+    transition: all 0.3s;
+    
+}
+.processBox ul li h2{
+    font-family: PingFangSC-Medium;
+    font-size: 18px;
+    color: #1D1D1F;
+    transition: all 0.3s;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.processBox ul li p{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #6E6E73;
+    letter-spacing: 0.8px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    margin-bottom: 0px;
+    
+    
+}
+.processBox ul li.isSelect h2{
+    font-size: 28px;
+
+}
+.processBox ul li.isSelect p{
+    max-height:110px;;
+    margin-bottom: 20px;
+}
+
+.allProcessBox{
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+}
+.mobileBorder{
+    width: 40%;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 76px 0 20px 12.5%;
+    background: url('~@/assets/appImg/mobile.png') no-repeat;
+    background-size: 291px 503.8px;
+    background-position-x: right;
+    float: left;
+    overflow: hidden;
+}
